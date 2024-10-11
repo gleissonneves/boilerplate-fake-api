@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate-fake-api",
+  "version": "1.0.0",
+  "description": "Template focado para criação de apis fakes para ambiente de teste baseado em json-server",
+  "main": "index.js",
+  "scripts": {
+    "data:rest": "json-server --watch src/routes.module.js --middlewares src/middleware.module.js --routes src/routes.json"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleissonneves/boilerplate-fake-api.git"
+  },
+  "keywords": [
+    "json-server",
+    "api",
+    "fake",
+    "api",
+    "teste",
+    "mock",
+    "rest",
+    "api",
+    "rest"
+  ],
+  "author": "Gleisson Neves <gleissonneves.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gleissonneves/boilerplate-fake-api/issues"
+  },
+  "homepage": "https://github.com/gleissonneves/boilerplate-fake-api#readme"
+}
